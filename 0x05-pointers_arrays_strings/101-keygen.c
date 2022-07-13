@@ -24,5 +24,5 @@ putchar(x + '0');
 break;
 }
 }
-
-
+return (0);
+}
