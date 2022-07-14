@@ -19,6 +19,7 @@ if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 *(s + count) = numbers[i];
 break;
 }
+}
 count++;
 }
 return (s);
