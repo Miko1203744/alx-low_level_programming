@@ -14,7 +14,8 @@ if (max >= min)
 guess = min + (max - min) / 2;
 if (guess * guess == m)
 return (guess);
-/* following binary search */
+/* following binary search
+ */
 if (guess * guess > m)
 return (sqtChecker(min, guess - 1, m));
 if (guess * guess < m)
